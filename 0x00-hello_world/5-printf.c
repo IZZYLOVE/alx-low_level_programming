@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - Entry point
  *
  * Description: 'a C program that prins a text, followed by a new line.'
-
  *
- * Return Always 0
+ * Return Always 0 (Success)
  */
 int main(void)
 {
