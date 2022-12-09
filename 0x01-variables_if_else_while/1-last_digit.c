@@ -25,9 +25,13 @@ int main(void)
 	{
 		printf("%d and is less than 6 and not 0\n", num);
 	}
-	else
+	else if (num == 0)
 	{
 		printf("%d and 0\n", num);
+	}
+	else
+	{
+		printf("%d and is less than 6 and not 0\n", num);
 	}
 	return (0);
 }
