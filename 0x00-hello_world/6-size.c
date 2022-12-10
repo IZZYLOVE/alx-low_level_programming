@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entty
- *R Return: Always 0
+ *Return: Always 0
  */
-main(void)
+
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
