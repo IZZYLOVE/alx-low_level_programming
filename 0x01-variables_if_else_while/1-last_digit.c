@@ -21,10 +21,6 @@ int main(void)
 	{
 		printf("%d and greater than 5\n", num);
 	}
-	else if (num > 0)
-	{
-		printf("%d and is less than 6 and not 0\n", num);
-	}
 	else if (num == 0)
 	{
 		printf("%d and 0\n", num);
