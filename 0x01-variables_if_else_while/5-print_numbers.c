@@ -2,7 +2,7 @@
 
 /**
  * main - prints all strings from 0 to 9
- * Retur: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
