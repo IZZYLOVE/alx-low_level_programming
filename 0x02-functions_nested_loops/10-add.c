@@ -4,12 +4,12 @@
  * add - adds two integers and returns the result
  * @a: fist number
  * @b: second number
- * Return: Always (Sum) (success)
+ * Return: Always (sum) (success)
  */
 int add(int a, int b)
 {
-	int Sum;
+	int sum;
 
-	Sum = a + b;
+	sum = a + b;
 	return (sum);
 }
