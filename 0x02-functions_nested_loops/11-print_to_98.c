@@ -4,7 +4,6 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n: the input
- * Return: Always 0 (Success)
  */
 
 void print_to_98(int n)
@@ -24,6 +23,4 @@ void print_to_98(int n)
 		printf("%d \n", n);
 	}
 
-
-	return (0);
 }
