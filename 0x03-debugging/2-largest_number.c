@@ -3,9 +3,9 @@
 
 /**
  * largest_number - prints the largest of 3 integers
- * @a: first integer
- * @b: second integer
- * @c: third integer
+ * @a: first integer input
+ * @b: second integer input
+ * @c: third integer input
  * Return: largest number
  */
 
