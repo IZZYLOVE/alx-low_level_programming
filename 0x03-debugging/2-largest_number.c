@@ -3,28 +3,28 @@
 
 /**
  * main - prints the largest of 3 integers
- * Return: 0
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if (a > b )
+	if (a > b && a > b)
 	{
-		if(b > a)
-			largest = a;
-		else if (a > c)
-			largest = a;
-		else
-			largest = c;
+		largest = a;
 	}
-	else
+	else if (b > a && b > c)
 	{
-		if (b < c)
-			largest = c;
-		else
-			largest = b;
+		largest = b;
 	}
+	else if (c > a && c > b)
+	{
+		largest = c;
+	}
+
 	return (largest);
 }
