@@ -22,11 +22,7 @@ int main(void)
 				printf("%d", i);
 			printf(" ");
 		}
-		printf("\n");
 	}
-	else
-	{
-		printf("\n");
-	}
+	printf("\n");
 	return (0);
 }
