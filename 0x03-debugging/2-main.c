@@ -3,10 +3,7 @@
 
 /**
  * main - prints the largest of 3 integers
- * @a: first integer
- * @b: second integer
- * @c: third integer
- * Return: largest number
+ * Return: 0
  */
 
 int main(void)
@@ -20,5 +17,5 @@ int main(void)
 
 	largest = largest_number(a, b, c);
 	printf("%d is the largest number\n", largest);
-	return (largest);
+	return (0);
 }
