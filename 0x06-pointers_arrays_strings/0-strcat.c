@@ -9,29 +9,20 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, n;
+	int i, j;
 
-	n = string_length(dest);
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		dest[n + i] = src[i];
+		i++;
 	}
-	dest[n + i] = '\0';
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
 	return (dest);
-}
-
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }
