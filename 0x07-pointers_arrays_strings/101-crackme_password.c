@@ -1,2 +1,2 @@
 #include <stdio.h>
-int main(void){printf("abc123");}
+void main(void){printf("ABC123");}
