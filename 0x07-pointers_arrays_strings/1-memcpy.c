@@ -2,7 +2,6 @@
 
 /**
  * _memcpy - copies n bytes from memory area src to memory area dest
- * Return: dest
  * @dest: pointer to memory destination
  * @src: pointer to memory source
  * @n: lenght of buffer
