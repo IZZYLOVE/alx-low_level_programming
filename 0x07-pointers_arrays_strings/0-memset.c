@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -7,7 +6,7 @@
  * @b: source string
  * @b: The constant byte for filling
  * @n: lenght of buffer
- * Return: pointer
+ * Return: new string
  */
 
 char *_memset(char *s, char b, unsigned int n)
