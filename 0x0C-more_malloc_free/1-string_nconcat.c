@@ -39,11 +39,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		}
 
 		/* append the second string to destination */
-		for (i = 0; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			s[len1 + i] = s2[i];
 		}
-		s[len1 + n + 1] = '\0';
 	}
 	return (s);
 }
