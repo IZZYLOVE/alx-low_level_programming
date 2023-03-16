@@ -24,8 +24,8 @@ echo -e "Cleanup ..."
 rm *.xt passxt.c
 
 # clear
-echo -e "Created 101-password successfully"
-ls 101-pas*
+echo -e "Created 100-password successfully"
+ls 100-pas*
 
 echo -e
 echo -e "Run ./crackme4 \`cat 100-password\` to verify"
