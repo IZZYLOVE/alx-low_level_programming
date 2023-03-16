@@ -16,7 +16,7 @@ int main(void)
 
 	pass[i] = '\0';
 
-	sprintf(run, "echo %s > 101-password", pass);
+	sprintf(run, "echo %s > 100-password", pass);
 	system(run);
 
 	return (0);
