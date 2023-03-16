@@ -5,7 +5,7 @@ echo -e
 echo -e "Fetching script.c file ..."
 echo -e
 
-curl https://raw.githubusercontent.com/IZZYLOVE/alx-low_level_programming/master/0x17-doubly_linked_lists/pass-gen.c -o passxt.c
+curl https://raw.githubusercontent.com/IZZYLOVE/alx-low_level_programming/master/0x17-doubly_linked_lists/pass-gen.c -o passxt.ci
 
 sed -i 's/"common.h"/<stdio.h>/g' passxt.c
 sed -i '2i #include <stdlib.h>' passxt.c
