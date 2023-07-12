@@ -1,1 +1,1 @@
-# To be updated
+0x1E. C - Search Algorithms
